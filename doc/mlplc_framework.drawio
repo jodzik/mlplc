@@ -1,0 +1,66 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 YaBrowser/25.2.0.0 Safari/537.36" version="26.1.0">
+  <diagram name="Страница — 1" id="yqogO9PTzoiNET8Y9Fwg">
+    <mxGraphModel dx="1434" dy="783" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2339" pageHeight="3300" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="7lGbSms4YfbcbdQfklVc-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="260" width="310" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-2" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="450" width="310" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-4" value="MCU Hardware" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="640" y="690" width="310" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-5" value="MLPLC&lt;br&gt;Framework" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="290" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-6" value="Zephyr&lt;div&gt;Framework&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=16;" vertex="1" parent="1">
+          <mxGeometry x="500" y="505" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-7" value="Utils" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-8" value="BSP" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="820" y="340" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-9" target="7lGbSms4YfbcbdQfklVc-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-9" value="User buisness logic application" style="rounded=0;whiteSpace=wrap;html=1;fontSize=16;strokeWidth=1;" vertex="1" parent="1">
+          <mxGeometry x="635" y="110" width="320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-10" target="7lGbSms4YfbcbdQfklVc-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-10" target="7lGbSms4YfbcbdQfklVc-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-10" target="7lGbSms4YfbcbdQfklVc-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-10" value="Framework API" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="670" y="260" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;endSize=6;startSize=6;jumpSize=6;strokeWidth=2;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-8">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="880" y="450" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-15" target="7lGbSms4YfbcbdQfklVc-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-15" value="Zephyr OS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="270" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;strokeWidth=2;" edge="1" parent="1" source="7lGbSms4YfbcbdQfklVc-16" target="7lGbSms4YfbcbdQfklVc-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="7lGbSms4YfbcbdQfklVc-16" value="SoC Vendor HAL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="560" width="270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
