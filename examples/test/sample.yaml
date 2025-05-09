@@ -1,0 +1,11 @@
+sample:
+  name: MLPLC test firmware
+tests:
+  examples.test:
+    tags:
+      - full
+    filter: dt_enabled_alias_with_parent_compat("led0", "gpio-leds")
+    depends_on: gpio
+    harness: led
+    integration_platforms:
+      - frdm_k64f

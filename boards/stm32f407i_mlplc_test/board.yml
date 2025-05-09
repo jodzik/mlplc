@@ -1,0 +1,6 @@
+board:
+  name: stm32f407i_mlplc_test
+  full_name: STM32F4 Discovery
+  vendor: st
+  socs:
+    - name: stm32f407xx
